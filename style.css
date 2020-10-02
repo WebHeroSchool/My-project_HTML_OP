@@ -6,8 +6,13 @@
   display:inline-block;
 }
 .logo{
-  padding: 40px 0;
-}
+  //padding: 40px 0;
+  //font: bold 24px/31px 'pt_serif',arial,helvetica,sans-serif;
+  width: 190px;
+  height: 35px;
+  border: dashed 1px red;
+  background: url('img/logo.svg');
+  }
 .menu{
   display:flex;
   align-items: center;
@@ -18,15 +23,16 @@
 .menu__item:last-child{
   padding-right: 0
 }
-header{
+.header{
+  padding: 40px 0;
   display:flex;
   justify-content: space-between;
 }
 
-h1{
+.main-content__title{
   font-family: 'Roboto',sans-serif;
 }
-p{
+.main-content__subtitle{
   font-family: 'Kumbh Sans',sans-serif;
 }
 BUTTON{
