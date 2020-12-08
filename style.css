@@ -40,7 +40,7 @@
  .menu__item{
    position: relative;
    margin-right: 26px;
-   font: 500 14px/16px 'Roboto',arial,helvetica,sans-serif;
+   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
    color: #000;
    text-decoration: none;
    transition: opacity .5s;
@@ -90,18 +90,18 @@
  }
  .main__title{
    margin: 0 0 40px 0;
-   font: bold 50px/66px 'pt_serifbold',arial,helvetica,sans-serif;
+   font: bold 66px/87px 'pt_serifbold',arial,helvetica,sans-serif;
  }
  .main__subtitle{
    margin:0 0 41px 0;
-   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
+   font: 500 22px/26px 'Roboto',arial,helvetica,sans-serif;
  }
  .main__title-text_highlight{
    background: #ECF3FF;
  }
  .main__button{
    display: inline-block;
-   font: 14px/16px Roboto,arial,helvetica,sans-serif;
+   font: 18px/21px Roboto,arial,helvetica,sans-serif;
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
