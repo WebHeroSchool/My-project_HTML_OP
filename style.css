@@ -303,8 +303,8 @@
   }
 
   .menu__btn > span,
-  .menu__btn > span:before,
-  .menu__btn > span:after {
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -312,12 +312,12 @@
     background-color: #0056ec;
   }
 
-  .menu__btn > span:before {
+  .menu__btn > span::before {
     content: '';
     top: -8px;
   }
 
-  .menu__btn > span:after {
+  .menu__btn > span::after {
     content: '';
     top: 8px;
   }
@@ -342,7 +342,7 @@
     width: max-content;
     justify-content: center;
     display: block;
-    font: 500 30px/35px 'Roboto',sans-serif,arial,helvetica;
+    font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
     text-decoration: none;
   }
 
@@ -350,12 +350,12 @@
     transform: rotate(45deg);
   }
 
-  #menu__toggle:checked ~ .menu__btn > span:before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
 
-  #menu__toggle:checked ~ .menu__btn > span:after {
+  #menu__toggle:checked~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
