@@ -27,12 +27,12 @@
   left: 8px;
   top: 56%;
   background: #c8dbfb;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_dark-blue {
   background: #0056ec;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .menu {
@@ -47,7 +47,7 @@
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item_active::after {
@@ -73,7 +73,7 @@
   height: 3px;
   background: #0056ec;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover {
@@ -126,7 +126,7 @@
   padding: 14px 25px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .main__button:hover {
@@ -355,7 +355,7 @@
     transform: rotate(0);
   }
 
-  #menu__toggle:checked~ .menu__btn > span::after {
+  #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
