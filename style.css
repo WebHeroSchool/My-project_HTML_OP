@@ -4,7 +4,8 @@
 }
 
 .logo, .menu {
-  display: inline-block;}
+  display: inline-block;
+}
 
 .logo {
   position: relative;
@@ -49,7 +50,7 @@
   transition: opacity .5s;
 }
 
-.menu__item_active:after {
+.menu__item_active::after {
   position: absolute;
   left: 0;
   display: block;
@@ -60,9 +61,10 @@
 }
 
 .menu__item:last-child {
-  margin-right: 0;}
+  margin-right: 0;
+}
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   left: 0;
   display: block;
@@ -75,9 +77,10 @@
 }
 
 .menu__item:hover {
-  opacity: 0.5;}
+  opacity: 0.5;
+}
 
-.menu__item:hover:after {
+.menu__item:hover::after {
   position: absolute;
   left: 0;
   display: block;
@@ -87,7 +90,7 @@
   background: #0056ec;
 }
 
-.menu__item:hover:after,menu__item_active:after {
+.menu__item:hover::after,menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -109,7 +112,8 @@
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
-.main__title-text_highlight { background: #ecf3ff;}
+.main__title-text_highlight { background: #ecf3ff;
+}
 
 .main__button {
   display: inline-block;
@@ -124,7 +128,8 @@
   transition: opacity .5s;
 }
 
-.main__button:hover { opacity: .5;}
+.main__button:hover { opacity: .5;
+}
 
 .header {
   display: flex;
@@ -133,28 +138,29 @@
 }
 
 .hamburger-menu {
-  display: none;}
+  display: none;
+}
 
-  @media (max-width: 1366px) {
-
-    .wrapper {
-      margin: auto;
+ @media (max-width: 1366px) {
+   .wrapper {
+     margin: auto;
       width: 70%;
     }
 
     .menu {
       display: flex;
       align-items: center;
-      padding-right: 24px;
-      padding-top: 13px;
+       padding-right: 24px;
+       padding-top: 13px;
     }
 
     .menu__item {
-      font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;}
+      font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    }
 
     .main {
-      padding: 0 56% 83px 0;
-      background: top right no-repeat url(img/mainImg1366.svg);
+       padding: 0 56% 83px 0;
+       background: top right no-repeat url(img/mainImg1366.svg);
       background-position-x: 97%;
     }
 
