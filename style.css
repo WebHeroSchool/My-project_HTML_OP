@@ -90,7 +90,7 @@
   background: #0056ec;
 }
 
-.menu__item:hover::after,menu__item_active::after {
+.menu__item:hover::after, menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -112,7 +112,8 @@
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
-.main__title-text_highlight { background: #ecf3ff;
+.main__title-text_highlight {
+  background: #ecf3ff;
 }
 
 .main__button {
@@ -128,7 +129,8 @@
   transition: opacity .5s;
 }
 
-.main__button:hover { opacity: .5;
+.main__button:hover {
+  opacity: .5;
 }
 
 .header {
@@ -155,22 +157,22 @@
     }
 
     .menu__item {
-      font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+       font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .main {
        padding: 0 56% 83px 0;
        background: top right no-repeat url(img/mainImg1366.svg);
-      background-position-x: 97%;
+    background-position-x: 97%;
     }
 
-    .main__title {
-      padding-top: 17px;
-      font: bold 50px/66px 'pt_serifbold', arial, helvetica, sans-serif;
-      margin-bottom: 40px;
+  .main__title {
+       padding-top: 17px;
+       font: bold 50px/66px 'pt_serifbold', arial, helvetica, sans-serif;
+       margin-bottom: 40px;
     }
 
-    .main__subtitle {
+  .main__subtitle {
       margin: 0 0 41px 0;
       padding: 0 10% 0px 0;
       font: 400 18px/21px 'Roboto', arial, helvetica, sans-serif;
