@@ -107,18 +107,22 @@
     text-shadow: 0 0 3px #191970;
     animation-timing-function: ease-in-out;
   }
+
   25% {
     text-shadow: 0 0 15px #191970;
     animation-timing-function: ease-in-out;
   }
+
   50% {
     text-shadow: 0 0 30px #191970;
     animation-timing-function: ease-in-out;
   }
+
   75% {
-  text-shadow: 0 0 5px #191970;
-  animation-timing-function: ease-in-out;
+    text-shadow: 0 0 5px #191970;
+    animation-timing-function: ease-in-out;
   }
+  
   to {
     text-shadow: 0 0 1px #191970;
     animation-timing-function: ease-in-out;
