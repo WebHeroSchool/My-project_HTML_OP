@@ -102,10 +102,35 @@
   background: top right no-repeat url(img/mainImg.svg);
 }
 
+@keyframes main-text {
+  from {
+    text-shadow: 0 0 3px #191970;
+    animation-timing-function: ease-in-out;
+  }
+  25% {
+    text-shadow: 0 0 15px #191970;
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    text-shadow: 0 0 30px #191970;
+    animation-timing-function: ease-in-out;
+  }
+  75% {
+  text-shadow: 0 0 5px #191970;
+  animation-timing-function: ease-in-out;
+  }
+  to {
+    text-shadow: 0 0 1px #191970;
+    animation-timing-function: ease-in-out;
+  }
+}
+
 .main__title {
   padding-top: 76px;
   margin: 0 0 35px 0;
   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
+  animation-name: main-text;
+  animation-duration: 4s;
 }
 
 .main__subtitle {
