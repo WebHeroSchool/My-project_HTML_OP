@@ -181,8 +181,7 @@
   }
 
   .menu {
-    padding-right: 24px;
-    padding-top: 13px;
+    padding: 13px 24px 0 0;
   }
 
   .menu__item {
@@ -226,7 +225,6 @@
 
   .menu {
     padding-top: 10px;
-    padding-right: 0;
   }
 
   .menu__item {
